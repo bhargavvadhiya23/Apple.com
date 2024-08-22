@@ -1,0 +1,453 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        z-index: 50000;
+        position: sticky;
+        top: 0px;
+        padding: 12px 0px;
+        background-color: rgba(22, 22, 23, .8);
+        backdrop-filter: blur(10px);
+        text-align: center;
+    }
+    .navlist{
+        padding: 0px 22px;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    a{
+        font-family: "Roboto", sans-serif;
+         font-weight: 200;
+        font-style: normal;
+        padding: 0px 8px;
+        font-size: medium;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .navlist > li {
+        display: flex;
+        align-items: center;
+        text-wrap: nowrap;
+        padding: 0px 4px;
+        margin: 0px 8px;
+    }
+    .logo{
+
+        width: 25px;
+    }
+    .btnbox{
+        margin: 14px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        border: none;
+        border-radius: 30px;
+    }
+    .btn a {
+        font-size: 22px;
+    }
+    .btn1{
+        padding: 11px 21px;
+        background: #0071e3;
+
+    }
+    .btn2{
+        margin-left: 10px;
+        background-color: black;
+        border: 2px solid #0071e3;
+    }
+    .btn2:hover{
+        background-color:#0071e3;
+        color: white;
+    }
+    .btn2 a:hover{
+        color: white;
+    }
+    .btn2 a {
+        padding: 11px 21px;
+        font-family: helvetica;
+        color: #0071e3;
+        font-weight: 400;
+
+    }
+    .iphone{
+        text-align: center;
+        height: 100vh;
+        background: url(https://www.apple.com/v/home/bp/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg);
+        background-position: 0% 100%;
+        background-size: contain;
+
+    }
+    .iphone h2{
+        color: white;
+        font-size:56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: Helvetica, sans-serif;
+    }
+    .dynamic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: helvetica;
+        background-color: rgb(33, 32, 32);
+        height: 47px;
+    }
+    .dynamic a{
+        color: #0071e3;
+        font-weight: 400;
+    }
+    .dynamic a:hover{
+        text-decoration: underline;
+    }
+
+    .iphone p{
+        margin-top: 6px;
+        color: white;
+        font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+
+    }
+
+
+
+
+
+    .ip15 {
+        background-color: whitesmoke;
+        height: 100vh;
+        text-align: center;
+    }
+    .ip15 h2{
+        color: black;
+        font-size:56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: Helvetica, sans-serif;
+    }
+    .ip15 p{
+        margin-top: 6px;
+        color: black;
+        font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    }
+    #ip15{
+        background-color: whitesmoke;
+    }
+    #ip15:hover{
+        background-color: #0071e3;
+    }
+    .img2 {
+        background: url(https://www.apple.com/v/home/bq/images/promos/iphone-15/promo_iphone15_announce__fmxxi8r9fkuy_large_2x.jpg);
+        background-size:contain ;
+        height: 90vh;
+        width: 100vw;
+    }
+    .img img{
+        text-align: center;
+
+width: 100vw;
+    }
+
+
+    .uniday{
+        background-color: whitesmoke;
+       display: flex; 
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    #iphone15{
+        background-color: whitesmoke;
+        padding: 11px 21px;
+        margin-bottom: 50px;
+    }
+    
+    #iphone15:hover{
+        background-color: #0071e3;
+    }
+    
+
+
+
+
+    .gnrl{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 10px solid transparent;
+        gap: 10px;
+    }
+    .box{
+        background-color: black;
+        height: 90vh;
+    }
+    .box1{
+        background-color: whitesmoke;
+        height: 90vh;
+    }
+    .ipad{
+        background: url(https://www.apple.com/v/home/bp/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium_2x.jpg);
+        background-size: cover;
+    }
+    .macbook{
+        background:url(https://www.apple.com/v/home/bp/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium_2x.jpg);
+        background-size: cover;
+    }
+    .watch{
+        background: url(https://www.apple.com/in/home/promos/apple-watch-series-9/images/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium_2x.jpg);
+        background-size: cover;
+    }
+    .ai{
+        background: url(https://www.apple.com/in/home/promos/apple-intelligence/images/promo_ai__couihqxznyvm_medium_2x.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .work{
+        background:url(https://www.apple.com/v/home/bp/images/promos/business-enterprise/promo_business_enterprise__dkdpcu4arpsi_medium_2x.jpg);
+        background-size: cover;
+    }
+    .trade{
+        background: url(https://www.apple.com/v/home/bp/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+        background-size: cover;
+    }
+
+    .box,.box1{
+      text-align: center;
+    }
+
+    .box h3{
+        color: white;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        margin-top: 53px;
+        font-family: Helvetica, sans-serif;
+    }
+    .box p{
+        color: white;
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 400;
+        letter-spacing: .011em;
+        margin-top: 4px;
+        font-family: Helvetica, sans-serif;
+
+    }
+
+    .box1 h3{
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        margin-top: 53px;
+        font-family: Helvetica, sans-serif;
+    }
+    .box1 p{
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 400;
+        letter-spacing: .011em;
+        margin-top: 4px;
+        font-family: Helvetica, sans-serif;
+
+    }
+    .box1 .btn2{
+        background-color: whitesmoke;
+    }
+    .box1 .btn2:hover{
+        background-color:#0071e3;
+    }
+    .box img{
+        width: 25%;
+    }
+    .ai h3 img{
+        width: 50%;
+    }
+    .callout{
+        font-size: 17px;
+        line-height: 1.23536;
+        font-weight: 400;
+        letter-spacing: -.022em;
+
+        color: #6e6e73;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+
+    .ac-gf-sosumi {
+        border-bottom: 1px solid var(--footer-section-border-color);
+        padding: 17px 0px 11px;
+    }
+    .ac-gf-sosumi li {
+        padding: 0px 0px 9.6px;
+        list-style: none;
+        font-size: 15px;
+        line-height: 1.3333733333;
+        font-weight: 300;
+        letter-spacing: -0.01em;
+        font-family: Helvetica, sans-serif;
+    }
+    .ac-gf-sosumi a {
+        text-decoration: underline;
+        color: #000000b8;
+    }
+    .ft{
+        background-color: whitesmoke;
+        padding: 0 165px;
+    }
+    hr{
+        color: black;
+    }
+    .ftc{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+
+
+    .cc{
+        display: flex;
+        justify-content: left;
+        width: auto;
+    }
+    .cc h3{
+        color: #212122;
+        font-size: 12px;
+        font-family:Helvetica, sans-serif;
+        font-weight: 400;
+        word-wrap: none;
+        margin: 30px 20px 20px 0px;
+    }
+    .cc li a{
+        word-wrap: none;
+        font-weight: 300;
+        color: rgb(56, 54, 54);
+    }
+    .cc li{
+        margin: 10px 0px 10px 0px;
+        list-style: none;
+    }
+    .fp{
+        margin-top: 50px;
+        margin-bottom: 16px;
+        padding: 0px 0px 19px;
+    }
+    .fp p{
+        color: #58585b;
+     font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family:Helvetica, sans-serif;
+    }
+.fp a{
+    font-weight: 400px;
+    font-size: 12px;
+    text-decoration: underline;
+    color:#0071e3;
+}
+
+.copyright{
+    padding: 30px 0px;
+}
+span,span a {
+    color: #6e6e73;
+    font-family:Helvetica, sans-serif;
+}
+#in{
+    position: absolute;
+    right: 165px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+
+.carousel-slide {
+    display: none;
+    position: relative;
+}
+
+.carousel-slide img {
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.carousel-caption p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.carousel-caption button {
+    padding: 10px 20px;
+    background-color: #fefefe;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.carousel-nav {
+    margin: 12px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #353434;
+}
