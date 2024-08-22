@@ -3,6 +3,7 @@
         margin: 0;
         padding: 0;
     }
+    
     .nav{
         z-index: 50000;
         position: sticky;
