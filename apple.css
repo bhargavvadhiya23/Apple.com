@@ -149,16 +149,16 @@
     #ip15:hover{
         background-color: #0071e3;
     }
-    .img2 {
-        background: url(https://www.apple.com/v/home/bq/images/promos/iphone-15/promo_iphone15_announce__fmxxi8r9fkuy_large_2x.jpg);
-        background-size:contain ;
+    .img2 video {
+        background-color: whitesmoke;
         height: 90vh;
         width: 100vw;
     }
     .img img{
         text-align: center;
-
-width: 100vw;
+        object-fit: contain;
+        height: 80vw;
+        width: 80vw;
     }
 
 
