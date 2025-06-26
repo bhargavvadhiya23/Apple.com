@@ -1,0 +1,30 @@
+.nav{
+    display: none;
+}
+
+
+.iphone{
+    background: url(https://www.apple.com/v/home/bq/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_small_2x.jpg);
+    background-size: contain;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+.dynamic{
+padding: 20px 30px;
+}
+.gnrl{
+display: none;
+}
+.cc{
+    display: none;
+}
+.mobile-warning{
+    display: none;
+}
+.mobile{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
