@@ -1,9 +1,15 @@
 
+/* @media only screen and (max-width: 480px) {    
+    @import url(applePhone.css);
+} */
+
     *{
         margin: 0;
         padding: 0;
     }
-    
+    .mobile{
+        display: none;
+    }
     .nav{
         z-index: 50000;
         position: sticky;
@@ -75,11 +81,14 @@
         font-weight: 400;
 
     }
+    
     .iphone{
         text-align: center;
         height: 100vh;
         background: url(https://www.apple.com/v/home/bp/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg);
         background-position: 0% 100%;
+        background-color: #000000;
+        background-repeat: no-repeat;
         background-size: contain;
 
     }
